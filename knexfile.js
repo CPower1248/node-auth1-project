@@ -1,12 +1,10 @@
-// Update with your config settings.
-
 module.exports = {
 
   development: {
     client: 'sqlite3',
     useNullAsDefault: true,
     connection: {
-      filename: './data/p1-users'
+      filename: './data/users.db3'
     },
     pool: {
       afterCreate: (conn, done) => {

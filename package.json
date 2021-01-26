@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node index.js",
     "server": "nodemon index.js",
+    "mlatest": "knex migrate:latest",
+    "mrollback": "knex migrate:rollback",
+    "seeddb": "knex seed:run",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
